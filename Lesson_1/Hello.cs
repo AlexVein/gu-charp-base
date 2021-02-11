@@ -16,6 +16,7 @@ namespace Lesson_1
             var name = Console.ReadLine();
 
             Console.WriteLine($"Hello, {name}. Today is {DateTime.Now:d}.");
+            Console.ReadLine();
         }
     }
 }
