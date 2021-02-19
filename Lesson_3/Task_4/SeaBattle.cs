@@ -16,6 +16,7 @@ namespace Lesson_3.Task_4
             ShowField(field);
         }
 
+       
         private string[,] SetupShipsEasy()
         {
             string[,] field =
