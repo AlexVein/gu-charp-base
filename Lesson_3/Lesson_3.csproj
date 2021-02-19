@@ -48,6 +48,7 @@
     <Compile Include="Task_1\PrintArray.cs" />
     <Compile Include="Task_2\PhoneBook.cs" />
     <Compile Include="Task_3\InvertedString.cs" />
+    <Compile Include="Task_4\SeaBattle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
