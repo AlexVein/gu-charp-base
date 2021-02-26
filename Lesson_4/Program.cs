@@ -1,6 +1,7 @@
 ﻿using System;
 using Lesson_4.Task_1;
 using Lesson_4.Task_2;
+using Lesson_4.Task_3;
 
 namespace Lesson_4
 {
@@ -14,7 +15,7 @@ namespace Lesson_4
 
                 Console.WriteLine("1. Метод \"GetFullName\"" +
                                   "\n2. Подсчет суммы чисел из строки" +
-                                  "\n3. " +
+                                  "\n3. Время года" +
                                   "\n4. " +
                                   "\n\n0. Выход");
 
@@ -39,6 +40,10 @@ namespace Lesson_4
                         Console.ReadLine();
                         break;
                     case "3":
+                        var task_3 = new SeasonYear();
+                        task_3.Start();
+                        Console.ReadLine();
+                        break;
                     case "4":
                         break;
                     default:
