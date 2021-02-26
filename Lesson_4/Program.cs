@@ -1,5 +1,6 @@
 ﻿using System;
 using Lesson_4.Task_1;
+using Lesson_4.Task_2;
 
 namespace Lesson_4
 {
@@ -12,7 +13,7 @@ namespace Lesson_4
                 Console.Clear();
 
                 Console.WriteLine("1. Метод \"GetFullName\"" +
-                                  "\n2. " +
+                                  "\n2. Подсчет суммы чисел из строки" +
                                   "\n3. " +
                                   "\n4. " +
                                   "\n\n0. Выход");
@@ -33,6 +34,10 @@ namespace Lesson_4
                         Console.ReadLine();
                         break;
                     case "2":
+                        var task_2 = new SumNumbers();
+                        task_2.Start();
+                        Console.ReadLine();
+                        break;
                     case "3":
                     case "4":
                         break;
