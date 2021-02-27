@@ -2,6 +2,7 @@
 using Lesson_4.Task_1;
 using Lesson_4.Task_2;
 using Lesson_4.Task_3;
+using Lesson_4.Task_4;
 
 namespace Lesson_4
 {
@@ -16,7 +17,7 @@ namespace Lesson_4
                 Console.WriteLine("1. Метод \"GetFullName\"" +
                                   "\n2. Подсчет суммы чисел из строки" +
                                   "\n3. Время года" +
-                                  "\n4. " +
+                                  "\n4. Числа Фибоначчи" +
                                   "\n\n0. Выход");
 
                 Console.Write("\n\nВведите нужный пункт и нажмите Enter: ");
@@ -45,6 +46,9 @@ namespace Lesson_4
                         Console.ReadLine();
                         break;
                     case "4":
+                        var task_4 = new FibonacciNum();
+                        task_4.Start();
+                        Console.ReadLine();
                         break;
                     default:
                         continue;

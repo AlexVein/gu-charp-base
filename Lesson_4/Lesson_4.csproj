@@ -48,6 +48,7 @@
     <Compile Include="Task_1\FullName.cs" />
     <Compile Include="Task_2\SumNumbers.cs" />
     <Compile Include="Task_3\SeasonYear.cs" />
+    <Compile Include="Task_4\FibonacciNum.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
