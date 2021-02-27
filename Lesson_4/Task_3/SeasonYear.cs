@@ -48,6 +48,11 @@ namespace Lesson_4.Task_3
             Console.WriteLine($"\n{GetRusName(season)}");
         }
 
+        /// <summary>
+        /// Возвращает русское название времени года
+        /// </summary>
+        /// <param name="season">Время года из перечисления Seasons</param>
+        /// <returns>Русское название времени года</returns>
         private string GetRusName(Seasons season)
         {
             if (season.Equals(Seasons.Autumn))
@@ -62,6 +67,11 @@ namespace Lesson_4.Task_3
             return "Зима";
         }
 
+        /// <summary>
+        /// Определет время года в соответствии с порядковым номером месяца
+        /// </summary>
+        /// <param name="month">Порядковый номер месяца</param>
+        /// <param name="season">Перечисление времен года</param>
         private void GetSeason(int month, ref Seasons season)
         {
             switch (month)

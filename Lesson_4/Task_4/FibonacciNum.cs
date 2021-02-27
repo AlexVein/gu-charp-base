@@ -27,6 +27,11 @@ namespace Lesson_4.Task_4
             Console.WriteLine($"{num} число Фибоначчи = {CalcFibonacci(num)}");
         }
 
+        /// <summary>
+        /// Рекурсивно расчитывает искомое число Фибоначчи
+        /// </summary>
+        /// <param name="num">Порядковый номер искомого числа</param>
+        /// <returns>Значение искомого числа Фибоначчи</returns>
         private int CalcFibonacci(int num)
         {
             if (num == 0) return 0;

@@ -18,6 +18,13 @@ namespace Lesson_4.Task_1
             Console.WriteLine(GetFullName("Константин", "Константиновский", "Константинович"));
         }
 
+        /// <summary>
+        /// Возвращает ФИО из переданных элементов
+        /// </summary>
+        /// <param name="firstName">Имя</param>
+        /// <param name="lastName">Фамилия</param>
+        /// <param name="patronymic">Отчество</param>
+        /// <returns>ФИО</returns>
         private string GetFullName(string firstName, string lastName, string patronymic)
         {
             return $"{lastName} {firstName} {patronymic}";

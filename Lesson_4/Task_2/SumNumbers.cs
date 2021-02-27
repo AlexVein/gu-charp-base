@@ -18,6 +18,11 @@ namespace Lesson_4.Task_2
             Console.WriteLine($"\nСумма чисел = {CalcSum(numString)}");
         }
 
+        /// <summary>
+        /// Возвращает сумму чисел в числовом ряду
+        /// </summary>
+        /// <param name="numString">Числовой ряд</param>
+        /// <returns>Сумма чисел</returns>
         private double CalcSum(string numString)
         {
             double result = 0;
