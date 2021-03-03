@@ -1,5 +1,6 @@
 ﻿using System;
 using Lesson_5.Task_1;
+using Lesson_5.Task_2;
 
 namespace Lesson_5
 {
@@ -32,6 +33,10 @@ namespace Lesson_5
                         Console.ReadLine();
                         break;
                     case "2":
+                        var task_2 = new Startup();
+                        task_2.Start();
+                        Console.ReadLine();
+                        break;
                     case "3":
                         break;
                     default:
