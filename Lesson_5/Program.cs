@@ -1,6 +1,7 @@
 ﻿using System;
 using Lesson_5.Task_1;
 using Lesson_5.Task_2;
+using Lesson_5.Task_3;
 
 namespace Lesson_5
 {
@@ -38,6 +39,9 @@ namespace Lesson_5
                         Console.ReadLine();
                         break;
                     case "3":
+                        var task_3 = new InputToBin();
+                        task_3.Start();
+                        Console.ReadLine();
                         break;
                     default:
                         continue;
